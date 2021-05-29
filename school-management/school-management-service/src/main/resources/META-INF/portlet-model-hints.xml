@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.gsb.school.management.model.School">
+		<field name="uuid" type="String" />
+		<field name="schoolId" type="long" />
+		<field name="groupId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="userName" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+		<field name="name" type="String" />
+		<field name="city" type="String" />
+		<field name="state" type="String" />
+		<field name="totalStudents" type="long" />
+		<field name="rating" type="int" />
+	</model>
+</model-hints>

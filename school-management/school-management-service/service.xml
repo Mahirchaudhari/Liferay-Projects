@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 7.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_7_2_0.dtd">
+
+<service-builder dependency-injector="ds"
+	package-path="com.gsb.school.management">
+	<namespace>SM</namespace>
+	<entity local-service="true" table="School" name="School"
+		remote-service="true" uuid="true">
+
+		<!-- PK fields -->
+
+		<column name="schoolId" primary="true" type="long" />
+
+		<!-- Group instance -->
+		<column name="groupId" type="long" />
+
+		<!-- Audit fields -->
+
+		<column name="companyId" type="long" />
+		<column name="userId" type="long" />
+		<column name="userName" type="String" />
+		<column name="createDate" type="Date" />
+		<column name="modifiedDate" type="Date" />
+
+		<!-- Other fields -->
+
+		<column name="name" type="String" />
+		<column name="city" type="String" />
+		<column name="state" type="String" />
+		<column name="totalStudents" type="long" />
+		<column name="rating" type="int" />
+
+		<!-- References -->
+
+		<reference entity="AssetEntry" package-path="com.liferay.portlet.asset" />
+		<reference entity="AssetLink" package-path="com.liferay.portlet.asset" />
+		<reference entity="Resource" package-path="com.liferay.portal" />
+	</entity>
+</service-builder>

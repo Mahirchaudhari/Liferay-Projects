@@ -1,0 +1,10 @@
+Bundle-Name: school-management-api
+Bundle-SymbolicName: com.gsb.school.management.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	com.gsb.school.management.exception,\
+	com.gsb.school.management.model,\
+	com.gsb.school.management.service,\
+	com.gsb.school.management.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../school-management-service/service.xml
