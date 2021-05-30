@@ -60,9 +60,6 @@ public class GenerateSchoolListMVCRenderCommand implements MVCRenderCommand {
 		if (Validator.isNotNull(keyword)) {
 			SearchContext searchContext = SearchContextFactory.getInstance(httpServletRequest);
 			searchContext.setKeywords(keyword);
-			searchContext.setAttribute("paginationType", "more");
-			searchContext.setStart(0);
-			searchContext.setEnd(10);
 			Indexer<School> indexer = IndexerRegistryUtil.getIndexer(School.class);
 
 			try {
