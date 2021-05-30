@@ -5,7 +5,7 @@ Supported Functionality:
 1. User can add/update/delete school in module.
 2. User can specify permission based on user role(Need to assign permission to role in liferay control panel). 
 3. User can search via search bar.
-4. User can also use asset published to display school related record.
+4. User can also use asset publisher to display school related record.
 
 Tech Stack: Liferay 7.2.1, Maven, Elastic Search
 

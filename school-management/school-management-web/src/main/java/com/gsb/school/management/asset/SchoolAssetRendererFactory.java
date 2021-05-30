@@ -41,12 +41,12 @@ public class SchoolAssetRendererFactory extends BaseAssetRendererFactory<School>
 
 		School _school = _schoolLocalService.getSchool(classPK);
 
-		SchoolAssetRenderer guestbookAssetRenderer = new SchoolAssetRenderer(_school, _schoolModelResourcePermission);
+		SchoolAssetRenderer schoolAssetRenderer = new SchoolAssetRenderer(_school, _schoolModelResourcePermission);
 
-		guestbookAssetRenderer.setAssetRendererType(type);
-		guestbookAssetRenderer.setServletContext(_servletContext);
+		schoolAssetRenderer.setAssetRendererType(type);
+		schoolAssetRenderer.setServletContext(_servletContext);
 
-		return guestbookAssetRenderer;
+		return schoolAssetRenderer;
 	}
 
 	@Override

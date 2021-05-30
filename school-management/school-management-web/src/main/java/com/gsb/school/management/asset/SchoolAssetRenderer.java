@@ -119,6 +119,7 @@ public class SchoolAssetRenderer extends BaseJSPAssetRenderer<School> {
 		PortletURL portletURL = liferayPortletResponse.createLiferayPortletURL(getControlPanelPlid(liferayPortletRequest), SchoolManagementPortletKeys.SCHOOLMANAGEMENT, PortletRequest.RENDER_PHASE);
 		portletURL.setParameter("schoolId", String.valueOf(_school.getSchoolId()));
 		portletURL.setParameter("mvcRenderCommandName", "/school/updateSchool");
+		portletURL.setParameter("mvcPath", "/school/add_update_school.jsp");
 		portletURL.setParameter("showback", Boolean.FALSE.toString());
 
 		return portletURL;
