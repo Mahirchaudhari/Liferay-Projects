@@ -1,4 +1,4 @@
-package com.hsb.school.management.search;
+package com.gsb.school.management.search;
 
 import com.liferay.portal.kernel.search.BooleanQuery;
 import com.liferay.portal.kernel.search.SearchContext;

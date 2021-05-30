@@ -1,4 +1,4 @@
-package com.hsb.school.management.permission.resources;
+package com.gsb.school.management.permission.resources;
 
 import com.liferay.exportimport.kernel.staging.permission.StagingPermission;
 import com.liferay.portal.kernel.security.permission.resource.PortletResourcePermission;

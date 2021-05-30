@@ -1,4 +1,4 @@
-package com.hsb.school.management.search;
+package com.gsb.school.management.search;
 
 import com.gsb.school.management.model.School;
 import com.gsb.school.management.service.SchoolLocalService;

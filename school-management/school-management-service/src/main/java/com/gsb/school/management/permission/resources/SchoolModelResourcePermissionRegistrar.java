@@ -1,4 +1,4 @@
-package com.hsb.school.management.permission.resources;
+package com.gsb.school.management.permission.resources;
 
 import com.gsb.school.management.model.School;
 import com.gsb.school.management.service.SchoolLocalService;
